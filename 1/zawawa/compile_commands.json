@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa",
+  "command": "/usr/bin/c++    -o CMakeFiles/zad1Fraction.dir/fraction.cpp.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/fraction.cpp",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/fraction.cpp"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa",
+  "command": "/usr/bin/c++    -o CMakeFiles/zad1Fraction.dir/main.cpp.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/main.cpp",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/main.cpp"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests",
+  "command": "/usr/bin/c++  -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest  -o CMakeFiles/tests.dir/fractionTests.cpp.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/fractionTests.cpp",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/fractionTests.cpp"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests",
+  "command": "/usr/bin/c++  -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest  -o CMakeFiles/tests.dir/__/fraction.cpp.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/fraction.cpp",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/fraction.cpp"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests/lib/googlemock",
+  "command": "/usr/bin/c++  -I/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/include -I/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests/lib/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests/lib/googletest",
+  "command": "/usr/bin/c++  -I/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -I/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/zawawa/tests/lib/googletest",
+  "command": "/usr/bin/c++  -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/include -isystem /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/agh/Nextcloud/STUDENCI/c++2022/zaj1Fraction_dlaStudentow/tests/lib/googletest/src/gtest_main.cc"
+}
+]
