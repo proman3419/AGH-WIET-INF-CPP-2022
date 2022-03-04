@@ -18,7 +18,7 @@ int Fraction::removedFractions_ = 0;
 
 Fraction::Fraction() : Fraction{0, 1} {}
 
-Fraction::Fraction(int numerator, int denominator) 
+Fraction::Fraction(int numerator, int denominator = Fraction::getDefaultDenominatorValue()) 
 {
     setNumerator(numerator);
     setDenominator(denominator);
@@ -36,14 +36,14 @@ Fraction::~Fraction()
 
 bool Fraction::setDenominator(int denominator)
 {
-    if (denominator != this->getInvalidDenominatorValue())
+    if (denominator != getInvalidDenominatorValue())
     {
         this->denominator = denominator;
         return true;
     }
     else
     {
-        this->denominator = this->getDefaultDenominatorValue();
+        this->denominator = getDefaultDenominatorValue();
         return false;
     }
 }
