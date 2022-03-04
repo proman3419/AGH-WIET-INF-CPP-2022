@@ -88,7 +88,7 @@ public:
     static int getDefaultDenominatorValue() { return defaultDenominatorValue; }
     
     void setNumerator(int numerator) { this->numerator = numerator; }
-    void setDenominator(int denominator) { this->denominator = denominator; }
+    bool setDenominator(int denominator);
     void setFractionName(std::string fractionName) { this->fractionName = fractionName; }
 
     std::string toString() const { return std::to_string(numerator) + '/' + std::to_string(denominator); }

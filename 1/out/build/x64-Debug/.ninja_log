@@ -72,3 +72,13 @@
 647	787	6680259688233219	bin/zad1Fraction.exe	95e98c57e86685c2
 4	1105	6680259691687211	tests/CMakeFiles/tests.dir/fractionTests.cpp.obj	a8bc09cf9d487a8
 1105	1270	6680259692937134	bin/tests.exe	fbd9fd86de962d39
+2	986	6680845831727651	CMakeFiles/zad1Fraction.dir/main.cpp.obj	c77d93f883e75ec
+986	1662	6680845836363732	bin/zad1Fraction.exe	95e98c57e86685c2
+3	689	6680849155017300	CMakeFiles/zad1Fraction.dir/main.cpp.obj	c77d93f883e75ec
+689	847	6680849156312214	bin/zad1Fraction.exe	95e98c57e86685c2
+4	1041	6680855704982771	tests/CMakeFiles/tests.dir/__/fraction.cpp.obj	f6cb61d407e9979
+26	1049	6680855705082744	CMakeFiles/zad1Fraction.dir/main.cpp.obj	c77d93f883e75ec
+19	1056	6680855705182723	CMakeFiles/zad1Fraction.dir/fraction.cpp.obj	3ea8a880f0eebc80
+1056	1214	6680855706484366	bin/zad1Fraction.exe	95e98c57e86685c2
+12	1480	6680855709384170	tests/CMakeFiles/tests.dir/fractionTests.cpp.obj	a8bc09cf9d487a8
+1481	2228	6680855715576225	bin/tests.exe	fbd9fd86de962d39

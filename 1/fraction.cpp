@@ -34,6 +34,20 @@ Fraction::~Fraction()
     Fraction::incrementRemovedFractions();
 }
 
+bool Fraction::setDenominator(int denominator)
+{
+    if (denominator != this->getInvalidDenominatorValue())
+    {
+        this->denominator = denominator;
+        return true;
+    }
+    else
+    {
+        this->denominator = this->getDefaultDenominatorValue();
+        return false;
+    }
+}
+
 void Fraction::save(std::ostream& os) const
 {
     os << this->toString();

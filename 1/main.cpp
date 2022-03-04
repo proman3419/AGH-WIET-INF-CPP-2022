@@ -36,7 +36,7 @@ Tresc do implementacji - szukaj w plikach *.h
 **/
 
 /// @todo Uzupelnij swoje dane:
-constexpr const char* const FIRSTNAME = "Przemysław";
+constexpr const char* const FIRSTNAME = "Przemyslaw";
 constexpr const char* const SURNAME   = "Roman";
 constexpr const char* const MAIL    = "proman@student.agh.edu.pl";
 constexpr const char* const BOOK_ID = "407659";
