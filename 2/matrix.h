@@ -80,7 +80,6 @@ public:
 
     static constexpr size_t getSize() { return size; }
     MatrixElement get(size_t row, size_t col) const { return matrix[row][col]; }
-    void set(size_t row, size_t col, MatrixElement number) { matrix[row][col] = number; }
 
     void operator()(TwoDimensionMatrix& sourceMatrix);
     friend std::istream& operator>>(std::istream& is, TwoDimensionMatrix& matrix);

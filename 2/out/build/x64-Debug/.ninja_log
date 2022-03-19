@@ -38,3 +38,16 @@
 1	505	6694217501804199	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
 4	949	6694217506189464	tests/CMakeFiles/tests.dir/matrixTests.cpp.obj	bdfe26a4c7559cda
 949	1402	6694217510489033	bin/tests.exe	265423c6ffa71a36
+4	519	6694220545840225	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
+0	983	6694220550400667	tests/CMakeFiles/tests.dir/matrixTests.cpp.obj	bdfe26a4c7559cda
+983	1156	6694220551701376	bin/tests.exe	265423c6ffa71a36
+4	676	6694222680140560	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
+1	1054	6694222683910983	tests/CMakeFiles/tests.dir/matrixTests.cpp.obj	bdfe26a4c7559cda
+1055	1287	6694222685799332	bin/tests.exe	265423c6ffa71a36
+1	561	6694229925668939	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
+561	726	6694229927168685	bin/tests.exe	265423c6ffa71a36
+1	487	6694230409411526	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
+487	627	6694230410511443	bin/tests.exe	265423c6ffa71a36
+1	483	6694230536843142	tests/CMakeFiles/tests.dir/__/matrix.cpp.obj	2cc3dbbe58903769
+4	946	6694230541416811	tests/CMakeFiles/tests.dir/matrixTests.cpp.obj	bdfe26a4c7559cda
+946	1108	6694230542716921	bin/tests.exe	265423c6ffa71a36

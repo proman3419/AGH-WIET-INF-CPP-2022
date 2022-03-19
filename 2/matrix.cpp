@@ -13,35 +13,35 @@ TwoDimensionMatrix::TwoDimensionMatrix()
 {
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            this->set(row, col, 0);
+            (*this)[row][col] = 0;
 }
 
 TwoDimensionMatrix::TwoDimensionMatrix(const TwoDimensionMatrix& sourceMatrix)
 {
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            this->set(row, col, sourceMatrix.get(row, col));
+            (*this)[row][col] = sourceMatrix[row][col];
 }
 
 TwoDimensionMatrix::TwoDimensionMatrix(const MatrixElement sourceMatrix[size][size])
 {
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            this->set(row, col, sourceMatrix[row][col]);
+            (*this)[row][col] = sourceMatrix[row][col];
 }
 
 void TwoDimensionMatrix::operator()(TwoDimensionMatrix& sourceMatrix)
 {
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            this->set(row, col, sourceMatrix.get(row, col));
+            (*this)[row][col] = sourceMatrix[row][col];
 }
 
 std::istream& operator>>(std::istream& is, TwoDimensionMatrix& matrix)
 {
     for (size_t row = 0; row < matrix.getSize(); ++row)
         for (size_t col = 0; col < matrix.getSize(); ++col)
-            is >> matrix.matrix[row][col];
+            is >> matrix[row][col];
 
     return is;
 }
@@ -52,7 +52,7 @@ std::ostream& operator<<(std::ostream& os, const TwoDimensionMatrix& matrix)
     {
         for (size_t col = 0; col < matrix.getSize(); ++col)
         {
-            os << matrix.get(row, col);
+            os << matrix[row][col];
         }
         os << '\n';
     }
@@ -66,7 +66,7 @@ TwoDimensionMatrix operator+(const TwoDimensionMatrix& matrix1, const TwoDimensi
     TwoDimensionMatrix result(matrix1);
     for (size_t row = 0; row < matrix1.getSize(); ++row)
         for (size_t col = 0; col < matrix1.getSize(); ++col)
-            result.set(row, col, matrix1.get(row, col) + matrix2.get(row, col));
+            result[row][col] = matrix1[row][col] + matrix2[row][col];
 
     return result;
 }
@@ -75,7 +75,7 @@ TwoDimensionMatrix& TwoDimensionMatrix::operator*=(MatrixElement number)
 {
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            this->set(row, col, this->get(row, col) * number);
+            (*this)[row][col] = (*this)[row][col] * number;
 
     return *this;
 }
@@ -85,7 +85,7 @@ TwoDimensionMatrix TwoDimensionMatrix::operator&&(const TwoDimensionMatrix& matr
     TwoDimensionMatrix result;
     for (size_t row = 0; row < size; ++row)
         for (size_t col = 0; col < size; ++col)
-            result.set(row, col, this->get(row, col) && matrix.get(row, col));
+            result[row][col] = (*this)[row][col] && matrix[row][col];
 
     return result;
 }
