@@ -88,8 +88,8 @@ public:
         matrix2);
     TwoDimensionMatrix& operator*=(MatrixElement number);
     TwoDimensionMatrix operator&&(const TwoDimensionMatrix& matrix) const;
-    MatrixElement* operator[](size_t i);
-    const MatrixElement* operator[](size_t i) const;
+    MatrixElement* operator[](size_t i) { return matrix[i]; }
+    const MatrixElement* operator[](size_t i) const { return matrix[i]; }
     explicit operator size_t() const { return getSize(); }
 
 private: // methods:

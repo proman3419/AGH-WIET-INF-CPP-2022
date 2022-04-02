@@ -51,9 +51,7 @@ std::ostream& operator<<(std::ostream& os, const TwoDimensionMatrix& matrix)
     for (size_t row = 0; row < matrix.getSize(); ++row)
     {
         for (size_t col = 0; col < matrix.getSize(); ++col)
-        {
             os << matrix[row][col];
-        }
         os << '\n';
     }
 
@@ -88,14 +86,4 @@ TwoDimensionMatrix TwoDimensionMatrix::operator&&(const TwoDimensionMatrix& matr
             result[row][col] = (*this)[row][col] && matrix[row][col];
 
     return result;
-}
-
-MatrixElement* TwoDimensionMatrix::operator[](size_t i)
-{
-    return matrix[i];
-}
-
-const MatrixElement* TwoDimensionMatrix::operator[](size_t i) const
-{
-    return matrix[i];
 }
