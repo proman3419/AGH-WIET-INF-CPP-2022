@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/3/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ed6cc && [1/2] Building C object CMakeFiles\cmTC_ed6cc.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_ed6cc.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MICROS~3\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_ed6cc.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_ed6cc.dir\ /FS -c D:\Documents\agh\semestr_4\cpp\AGH-WIET-INF-CPP-2022\3\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\Documents\agh\semestr_4\cpp\AGH-WIET-INF-CPP-2022\3\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
