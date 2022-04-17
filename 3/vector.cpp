@@ -13,10 +13,11 @@ Vector::Vector(std::size_t capacity)
     capacity_ = capacity;
 }
 
-void Vector::shallowCopy(const Vector& toCopy)
+void Vector::deepCopy(const Vector& toCopy)
 {
+    data_ = std::unique_ptr<Fraction[]>(new Fraction[toCopy.capacity()]);
     for (std::size_t i = 0; i < toCopy.size(); ++i)
-        data()[i] = toCopy.data()[i];
+        data()[i] = toCopy[i];
     size_ = toCopy.size();
     capacity_ = toCopy.capacity();
 }
@@ -31,13 +32,13 @@ Vector::Vector(Vector&& toMove)
     *this = std::move(toMove);
 }
 
-void Vector::operator=(const Vector& toCopy)
+Vector& Vector::operator=(const Vector& toCopy)
 {
-    data_ = std::unique_ptr<Fraction[]>(new Fraction[toCopy.capacity()]);
-    shallowCopy(toCopy);
+    deepCopy(toCopy);
+    return *this;
 }
 
-void Vector::operator=(Vector&& toMove)
+Vector& Vector::operator=(Vector&& toMove)
 {
     data_ = std::unique_ptr<Fraction[]>(std::move(toMove.data_));
     size_ = toMove.size();
@@ -46,6 +47,8 @@ void Vector::operator=(Vector&& toMove)
     toMove.data_ = nullptr;
     toMove.size_ = 0;
     toMove.capacity_ = 0;
+
+    return *this;
 }
 
 void Vector::push_back(const Fraction toAdd)
@@ -55,18 +58,14 @@ void Vector::push_back(const Fraction toAdd)
         // possible improvement: 2 * capacity + 1 even though capacity + 1 would be enough
         // this way we resize fewer times (but we lose some space for a while)
         capacity_ = capacity() + 1;
-        data_ = std::unique_ptr<Fraction[]>(new Fraction[capacity()]);
-        shallowCopy(*this);
+        deepCopy(*this);
     }
     data()[size_++] = toAdd;
 }
 
 Fraction Vector::operator[](std::size_t index)
 {
-    if (index >= size())
-        throw std::out_of_range("Index out of bounds (size) of the vector");
-    else
-        return data()[index];
+    return const_cast<const Vector&>(*this)[index];
 }
 
 Fraction Vector::operator[](std::size_t index) const

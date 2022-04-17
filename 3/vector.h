@@ -79,8 +79,8 @@ public:
     std::size_t size() const { return size_; }
     std::size_t capacity() const { return capacity_; }
 
-    void operator=(const Vector& toCopy);
-    void operator=(Vector&& toMove);
+    Vector& operator=(const Vector& toCopy);
+    Vector& operator=(Vector&& toMove);
     Fraction operator[](std::size_t index);
     Fraction operator[](std::size_t index) const;
 
@@ -91,7 +91,7 @@ private:
     std::size_t size_;
     std::size_t capacity_;
 
-    void shallowCopy(const Vector& toCopy);
+    void deepCopy(const Vector& toCopy);
 };
 
 #endif // VECTOR_H
