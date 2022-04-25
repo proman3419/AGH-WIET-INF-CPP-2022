@@ -32,7 +32,7 @@ Fraction operator*(const Fraction& f1, const Fraction& f2)
     return Fraction(n, d).simplify();
 }
 
-Fraction Fraction::simplify()
+Fraction& Fraction::simplify()
 {
     int gcd = std::gcd(numerator(), denominator());
     setNumerator(numerator() / gcd);

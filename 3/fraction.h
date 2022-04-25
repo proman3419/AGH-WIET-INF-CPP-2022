@@ -57,7 +57,7 @@ private: // members:
     int denominator_;
 
 private: // methods
-    Fraction simplify();
+    Fraction& simplify();
 };
 
 
