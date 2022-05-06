@@ -3,7 +3,7 @@
 namespace Shapes
 {
 	Rectangle::Rectangle(int xFrom, int yFrom, int xTo, int yTo) :
-		xFrom_(xFrom), yFrom_(yFrom), xTo_(xTo), yTo_(yTo) {};
+		xFrom_(xFrom), yFrom_(yFrom), xTo_(xTo), yTo_(yTo) {}
 
 	bool Rectangle::isIn(int x, int y) const
 	{

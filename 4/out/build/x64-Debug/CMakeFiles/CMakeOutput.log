@@ -50,16 +50,16 @@ The CXX compiler identification is MSVC, found in "D:/Documents/agh/semestr_4/cp
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_de2e7 && [1/2] Building C object CMakeFiles\cmTC_de2e7.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_de2e7.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1b734 && [1/2] Building C object CMakeFiles\cmTC_1b734.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_1b734.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6e511 && [1/2] Building CXX object CMakeFiles\cmTC_6e511.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_6e511.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4e638 && [1/2] Building CXX object CMakeFiles\cmTC_4e638.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_4e638.exe
 
 
 

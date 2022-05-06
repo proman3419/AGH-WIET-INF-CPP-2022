@@ -16,8 +16,8 @@
 },
 {
   "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug",
-  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /FoCMakeFiles\\zad4ShapeDrawing.dir\\shapeComposite.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapeComposite.cpp",
-  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapeComposite.cpp"
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /FoCMakeFiles\\zad4ShapeDrawing.dir\\shapecomposite.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapecomposite.cpp",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapecomposite.cpp"
 },
 {
   "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug",
@@ -36,8 +36,8 @@
 },
 {
   "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug",
-  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\tests\\lib\\googletest\\include -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\tests\\lib\\googletest -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /Fotests\\CMakeFiles\\tests.dir\\__\\shapeComposite.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapeComposite.cpp",
-  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapeComposite.cpp"
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\tests\\lib\\googletest\\include -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\tests\\lib\\googletest -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /Fotests\\CMakeFiles\\tests.dir\\__\\shapecomposite.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapecomposite.cpp",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\4\\shapecomposite.cpp"
 },
 {
   "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/4/out/build/x64-Debug",

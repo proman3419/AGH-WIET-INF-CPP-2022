@@ -14,6 +14,7 @@ namespace Shapes
 
 	public:
 		Circle(int x, int y, unsigned int r);
+		virtual ~Circle() = default;
 
 		int x() const { return x_; }
 		int y() const { return y_; }

@@ -17,6 +17,7 @@ namespace Shapes
 
 	public:
 		ShapeComposite(std::shared_ptr<Shape> shape1, std::shared_ptr<Shape> shape2, enum ShapeOperation operation);
+		virtual ~ShapeComposite() = default;
 
 		virtual bool isIn(int x, int y) const override;
 	};

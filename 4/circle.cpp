@@ -5,7 +5,7 @@
 namespace Shapes
 {
 	Circle::Circle(int x, int y, unsigned int r) :
-		x_(x), y_(y), r_(r) {};
+		x_(x), y_(y), r_(r) {}
 
 	bool Circle::isIn(int x, int y) const
 	{

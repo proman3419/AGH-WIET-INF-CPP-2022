@@ -15,6 +15,7 @@ namespace Shapes
 
 	public:
 		Rectangle(int xFrom, int yFrom, int xTo, int yTo);
+		virtual ~Rectangle() = default;
 
 		int x() const { return xFrom_; }
 		int y() const { return yFrom_; }
