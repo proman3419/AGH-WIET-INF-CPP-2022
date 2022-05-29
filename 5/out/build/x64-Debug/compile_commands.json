@@ -1,0 +1,52 @@
+[
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /FoCMakeFiles\\zad5MyListAndSorting_dlaStudentow.dir\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\main.cpp",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\main.cpp"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /Fotests\\CMakeFiles\\tests.dir\\MyListTests.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\MyListTests.cpp",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\MyListTests.cpp"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17 /Fotests\\CMakeFiles\\tests.dir\\MySortTests.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\MySortTests.cpp",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\MySortTests.cpp"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock-all.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock-all.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googlemock\\src\\gmock_main.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -ID:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "D:/Documents/agh/semestr_4/cpp/AGH-WIET-INF-CPP-2022/5/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1431~1.311\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\include -external:I D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest -external:W0 /DWIN32 /D_WINDOWS /GR  /Zi /Ob0 /Od /RTC1 -MDd -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  -std:c++17 /Fotests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "file": "D:\\Documents\\agh\\semestr_4\\cpp\\AGH-WIET-INF-CPP-2022\\5\\tests\\lib\\googletest\\src\\gtest_main.cc"
+}
+]

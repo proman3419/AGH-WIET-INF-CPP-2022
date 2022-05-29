@@ -1,0 +1,14 @@
+# ninja log v5
+1	1859	6748627226256354	CMakeFiles/zad5MyListAndSorting_dlaStudentow.dir/main.cpp.obj	74b6ade320746362
+28	2522	6748627232851583	tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	e3fc0af189d9b633
+25	2925	6748627236913524	tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	b452caac29b614c9
+1862	3000	6748627237513483	bin/zad5MyListAndSorting_dlaStudentow.exe	6f3a2e31682a9273
+17	3840	6748627246103670	tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	6fbd7b6da1068d38
+10	3847	6748627246203651	tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	dce98b8a9b3d0b1
+34	4947	6748627257126877	tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	70d1a2bbe82fd14f
+13	4975	6748627257427033	tests/lib/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	eebb5ed77ff5c00f
+21	5005	6748627257727012	tests/lib/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	33bedd0a4b6ba113
+17	3185	6748628482388108	lib/gtest.lib	a9aa4f89b2aba5df
+9	3257	6748628482488117	lib/gmock.lib	6d1a91f1d1477909
+13	3361	6748628482588102	lib/gmock_main.lib	40776446f771f9c6
+9	91	6749228030296688	lib/gtest_main.lib	87ddf569c0b94ca4
