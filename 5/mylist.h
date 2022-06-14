@@ -8,7 +8,7 @@ template <typename T> class MyList
 {
 public:
     using value_type = T;
-
+    
     struct Node;
     struct Iterator;
     struct ConstIterator;
@@ -116,6 +116,12 @@ private:
 template <typename T> class MyList<T>::Iterator
 {
 public:
+    using value_type = T;
+    using reference = T&;
+    using pointer = T*;
+    using iterator_category = std::random_access_iterator_tag;
+    using difference_type = std::ptrdiff_t;
+
     explicit Iterator() noexcept : curr(nullptr) {}
     explicit Iterator(Node* node) noexcept : curr(node) {}
 
@@ -136,6 +142,12 @@ private:
 template <typename T> class MyList<T>::ConstIterator
 {
 public:
+    using value_type = T;
+    using reference = T&;
+    using pointer = T*;
+    using iterator_category = std::random_access_iterator_tag;
+    using difference_type = std::ptrdiff_t;
+
     explicit ConstIterator() noexcept : curr(nullptr) {}
     explicit ConstIterator(const Node* node) noexcept : curr(node) {}
 

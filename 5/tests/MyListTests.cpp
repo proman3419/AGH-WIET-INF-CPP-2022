@@ -197,21 +197,21 @@ TEST_F(MyListTester, iterationWorksWithRangedForLoop)
     }
 }
 
-//TEST_F(MyListTester, iteratorWorksWithStlAlgorithms)
-//{
-//    // source of quote: Sw. Jan Pawel II
-//    constexpr char text[] = "Najbardziej tworcza ze wszystkich prac jest praca nad soba, "
-//            "ktora pozwala odnajdywac urok mlodosci. "
-//            "Nie ma wiekszego bogactwa w narodzie nad swiatlych obywateli.";
-//    MyList<char> l;
-//    for (char c : text)
-//    {
-//        l.push_front(c);
-//    }
-//    const auto counterWords = count_if(l.begin(), l.end(), ::isspace) + 1;
-//    constexpr decltype(counterWords) expectedNumberOfWords = 23;
-//    ASSERT_EQ(expectedNumberOfWords, counterWords);
-//}
+TEST_F(MyListTester, iteratorWorksWithStlAlgorithms)
+{
+    // source of quote: Sw. Jan Pawel II
+    constexpr char text[] = "Najbardziej tworcza ze wszystkich prac jest praca nad soba, "
+            "ktora pozwala odnajdywac urok mlodosci. "
+            "Nie ma wiekszego bogactwa w narodzie nad swiatlych obywateli.";
+    MyList<char> l;
+    for (char c : text)
+    {
+        l.push_front(c);
+    }
+    const auto counterWords = std::count_if(l.begin(), l.end(), ::isspace) + 1;
+    constexpr decltype(counterWords) expectedNumberOfWords = 23;
+    ASSERT_EQ(expectedNumberOfWords, counterWords);
+}
 
 TEST_F(MyListTester, ostreamOperator_expectedAllValuesInStream)
 {
